@@ -1,13 +1,15 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
-  font-family: ;
-  background: #555;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  background: #555;
   color: white;
 }
-.site-wrapper{
+
+.site-wrapper {
   max-width: 800px;
   margin: 10px auto;
   overflow: hidden;
@@ -15,31 +17,49 @@ body{
   background: white;
   color: #555;
 }
-.site-header{
+
+.site-header {
   padding: 10px 10px 20px;
   border-bottom: 1px solid #00aced;
 }
 
-.site-title{
+.site-title {
   text-align: center;
   text-transform: uppercase;
   font-weight: normal;
-  color: #00aecd;
+  color: #00aced;
 }
 
-.main-content{
+.main-nav {}
+
+.main-nav {}
+
+.main-content {
   padding: 10px;
 }
 
-
-.site-footer{
+.site-footer {
   padding: 20px;
   background-color: #00aced;
   color: white;
 }
 
-.copyright{
+.copyright {
+  margin: 0;
   text-align: center;
   font-size: 0.8em;
   font-style: italic;
+}
+
+
+
+
+.service-list dt {
+  margin: 2em 0 0.5em;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.service-list dd {
+  margin-left: 1em;
 }
